@@ -1,6 +1,6 @@
 # @Autor: MatheusTGamerPro
 # Copyright © MatheusTGP
-
+# Jogo no Modo: Solo
 import time,random
 print("========[ MiniGame in Python ]========")
 time.sleep(1)
