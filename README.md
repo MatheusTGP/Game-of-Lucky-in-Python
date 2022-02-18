@@ -1,50 +1,37 @@
 # Sobre o Código
-
-Execute um Minigame e teste sua Sorte jogando com amigos!
-No código você tera a Chance de Jogar com a Máquina e Possívelmente com outros
-Jogadores que irão poder adicionar os Nomes Fazendo com que gere um ou mais jogadores para Jogar,
-Você pode escolher em breve entre Jogar Solo/Jogar Multiplayer.
+É um pequeno projeto de minigame feito em Python, onde você pode
+Jogar em modo **Solo** e **Multiplayer** da forma que você quiser,o código está sendo
+Construido totalmente em Python, sendo possível você executar em múltiplas plataformas.
 
 # Licença
-
 APACHE 2.0 - Código Liberado como Open-Source!
 Más não remova os " # " Originais!
 
 # Modo Solo
-
-Nesse MiniGame o código irá fazer o usuário abrir o Teclado para inserir o nome do Jogador
-E logo em seguida fazer o usuario chutar o Valor que a Máquina pensou.
-Caso ele acerte, o game será vencido pelo Usuário caso aocontrario a máquina saira como vencedora
+O Minigame funciona de um método muito simples, o programa pedirá
+Entrada do teclado para ao usuário para inserir seu nome e o valor que você acha
+Que a máquina pensou, caso o o valor seu e da máquina forem iguais, o usuário ganha,
+ou se o número não for igual, a máquina ganha.
 
 # Modo MultiPlayer
-
-Nesse modo de jogo você poderá jogar com Amigos, nesse metodo do jogo você ira
-Inserir o nome de 2 Players, adicionando os nomes logo em seguida o jogo irá se iniciar,
-A máquina ira fazer os Dois Jogadores inserir um  valor que a máquina pensou, como o jogo Solo.
-Más ágora somente 1 ou até 2 dos jogadores podem Ganhar ao Mesmo Tempo, caso aocontrario a máquina Ganha!
-
-**Este Modo de Jogo Será implementado em Breve**
+O Modo multijogador você poderá jogar com algum amigo seu, e como as regras
+Padrão do jogo, os dois jogadores deveram tentar acertar o número em que a máquina pensou,
+Se o número do **jogador 1** for igual ao da máquina, o jogador 1 é o vencedor, caso o número
+do **jogador 2** for igual o da máquina, o jogador 2 é o vencedor, e por último caso os dois
+números não forem iguais ao que a máquina pensou, o vencedor... é a máquina.
 
 # Desenvolvimento
+Versão do Python utilizada: **3.9**
 
-Python: **3.8.3**
+Editores utilizados: **PyDroid / Geany**
 
-IDLE: **PyDroid**
-
-Extensão Utilizada: **.PY**
+Funciona em várias versões do Python.
 
 # Instalação
+A instalação do script (jogo) é muito simples, basta você ir na Release
+E pegar o arquivo **.py** da última versão do Game, por enquanto não é disponível
+A versão compilada (exe) então, o Jogo estará disponível na extensão padrão.
 
-Quando a Release ou Pré-Release for lançada você terá a possibilidade 
-De instalar o código na extensão **( py )**, Primeiramente você deve ter o python instalado
-Logo em seguida você pode executar no SHELL, Terminal, ou execute pela IDLE original.
-Você abrindo o código ira se iniciar o MiniGame!
-
-# Bibliotecas
-
-As bibliotecas necessárias para executar corretamente o Código
-Devem ser instaladas ou Pré-Instaladas pelo Python, caso você não habilitou esta função.
-
-- Abra o Terminal
-- Execute  `pip install time`
-- aguarde a Instalação do modulo
+# Bibliotecas / Módulos
+As bibliotecas utilizadas no Jogo são totalmente internas do Python
+Sem necessidade de você instalar nada.
